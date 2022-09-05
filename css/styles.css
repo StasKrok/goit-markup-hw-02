@@ -7,159 +7,218 @@
 /* цвет фона команда #F5F4FA */
 
 /* index.html */
-:root{
-    --primary-text-color:#757575;
-    --title-text-color:#212121;
-    --accent-color:#2196F3;
-    --primary-bg-color:#F5F5F5;
-    --primary-white-color:#FFFFFF;
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bg-color: #f5f5f5;
+  --primary-white-color: #ffffff;
 }
-body{
-    background-color: var(--primary-bg-color);
-    color: var(--title-text-color);  
+body {
+  background-color: var(--primary-white-color);
+  color: var(--title-text-color);
+
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .list {
-    list-style: none;
+  list-style: none;
 }
-.link{
-    text-decoration: none;
-    font-style: normal;
+.link {
+  text-decoration: none;
+  font-style: normal;
 }
 .visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
-
 
 /* Шапка */
 /* site nav */
-.logo{
-    color: var(--accent-color);
+.logo {
+  color: var(--accent-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
-.logo-black{
-    color: #000000;
+.logo-black {
+  color: #000000;
 }
-.logo-white{
-    color: var(--primary-white-color)
+.logo-white {
+  color: var(--primary-white-color);
 }
 
 /* Навигация по сайту */
 .site-nav .link {
-color:var(--title-text-color);
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
-.site-nav .link:focus{
-    color:var(--accent-color);
+.site-nav .link:focus {
+  color: var(--accent-color);
 }
-.site-nav .link.current{
-    color:var(--accent-color);
+.site-nav .link.current {
+  color: var(--accent-color);
 }
 
 /* Контакты */
-.nav-contact .link{
-color:var(--primary-text-color);
+.nav-contact .link {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .nav-contact .link:hover,
-.nav-contact .link:focus{
-color:var(--accent-color);
+.nav-contact .link:focus {
+  color: var(--accent-color);
 }
-.header{
-    background-color:var(--primary-white-color);
+.header {
+  background-color: var(--primary-white-color);
 }
 
 /* main */
 /* Герой */
-.hero-title{
-    color:var(--primary-white-color);
+.hero-title {
+  color: var(--primary-white-color);
+  
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
-.button{
-    color:var(--primary-white-color);
-background-color: var(--accent-color);
-cursor: pointer;
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 .button:hover,
-.button:focus{
-    background-color: #188CE8;
+.button:focus {
+  background-color: #188ce8;
 }
-.hero{
-    background-color: #2F303A;
-}
-
-/* секции */
-.section-title{
-    color: var(--title-text-color);
+.hero {
+  background-color: #2f303a;
 }
 
 /* Преимущества */
-.title.advants{
-    color:var(--title-text-color);
+.title.advants {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+/* Примеры работ */
+.section-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
 
 /* Наша команда */
-.title.team{
-    color: var(--title-text-color);
+.title.team {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  /* text-align: center; */
 }
-.section.team{
-    background-color: #F5F4FA;
+.section.team {
+  background-color: #f5f4fa;
 }
-.people{
-    background-color: var(--primary-white-color);
+.people {
+  background-color: var(--primary-white-color);
 }
 
 /* Футер */
-.adress{
-    color:var(--primary-white-color);
+.adress {
+  color: var(--primary-white-color);
 }
-.mail{
-    color:rgba(255, 255, 255, 0.6);
+.mail {
+  color: rgba(255, 255, 255, 0.6);
 }
-.tel{
-color: rgba(255, 255, 255, 0.6);
+.tel {
+  color: rgba(255, 255, 255, 0.6);
 }
 .adress:hover,
 .adress:focus,
 .mail:hover,
 .mail:focus,
 .tel:hover,
-.tel:focus{
-    color:var(--accent-color);
+.tel:focus {
+  color: var(--accent-color);
 }
-.footer{
-    background-color: #2F303A;;
+.footer {
+  background-color: #2f303a;
 }
-
 
 /* portfolio */
 /* main */
 /* button */
-.btn{
-background-color: #F5F4FA;
+.btn {
+  background-color: #f5f4fa;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
 }
+
 .btn:hover,
-.btn:focus{
-    color:var(--primary-white-color);
-    background-color:var(--accent-color);
+.btn:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 
 /* Work list */
-.work-list{
-    color: var(--primary-text-color);
+.work-titel {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
-.work-titel{
-    color:var(--title-text-color);
-}
-.work-li{
-    background-color: var(--primary-white-color);
+
+.work-link {
+  color: var(--primary-text-color);
 }
 
-
-
-
+.work-li {
+  background-color: var(--primary-white-color);
+}
