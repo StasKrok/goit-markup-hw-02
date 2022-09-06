@@ -11,11 +11,10 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
-  --primary-bg-color: #f5f5f5;
-  --primary-white-color: #ffffff;
+  --primary-bg-color: #ffffff;
 }
 body {
-  background-color: var(--primary-white-color);
+  background-color: var(--primary-bg-color);
   color: var(--title-text-color);
 
   font-family: Roboto, sans-serif;
@@ -58,7 +57,7 @@ body {
   color: #000000;
 }
 .logo-white {
-  color: var(--primary-white-color);
+  color: var(--primary-bg-color);
 }
 
 /* Навигация по сайту */
@@ -92,14 +91,14 @@ body {
   color: var(--accent-color);
 }
 .header {
-  background-color: var(--primary-white-color);
+  background-color: var(--primary-bg-color);
 }
 
 /* main */
 /* Герой */
 .hero-title {
-  color: var(--primary-white-color);
-  
+  color: var(--primary-bg-color);
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -108,7 +107,7 @@ body {
   text-transform: uppercase;
 }
 .button {
-  color: var(--primary-white-color);
+  color: var(--primary-bg-color);
   background-color: var(--accent-color);
   cursor: pointer;
 
@@ -160,13 +159,11 @@ body {
 .section.team {
   background-color: #f5f4fa;
 }
-.people {
-  background-color: var(--primary-white-color);
-}
+
 
 /* Футер */
 .adress {
-  color: var(--primary-white-color);
+  color: var(--primary-bg-color);
 }
 .mail {
   color: rgba(255, 255, 255, 0.6);
@@ -201,7 +198,7 @@ body {
 
 .btn:hover,
 .btn:focus {
-  color: var(--primary-white-color);
+  color: var(--primary-bg-color);
   background-color: var(--accent-color);
 }
 
@@ -220,5 +217,5 @@ body {
 }
 
 .work-li {
-  background-color: var(--primary-white-color);
+  background-color: var(--primary-bg-color);
 }
